@@ -1,4 +1,4 @@
-Contact Manager Backend Application
+<h1>Contact Manager Backend Application</h1>
 This project is a backend application for managing contacts. It provides a robust and scalable solution for creating, reading, updating, and deleting (CRUD) contact information. The application is built using Node.js and Express, with MongoDB as the database. It also incorporates JWT (JSON Web Token) for authentication and authorization, and Thunder Client API for testing purposes.
 
 Features:
@@ -17,31 +17,7 @@ Mongoose: An Object Data Modeling (ODM) library for MongoDB and Node.js.
 JWT: JSON Web Token for secure authentication.
 Thunder Client: A lightweight REST API Client extension for VS Code used for testing APIs.
 dotenv: Module to load environment variables from a .env file into process.env.
-Installation
-Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/your-username/contact-manager-backend.git
-cd contact-manager-backend
-Install dependencies:
-
-bash
-Copy code
-npm install
-Set up environment variables:
-Create a .env file in the root directory and add the following variables:
-
-makefile
-Copy code
-PORT=5000
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-Start the application:
-
-bash
-Copy code
-npm start
 API Endpoints
 User Registration: POST /api/users/register - Register a new user.
 User Login: POST /api/users/login - Authenticate a user and return a token.
